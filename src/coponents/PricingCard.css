@@ -19,10 +19,7 @@
 .card:hover {
   background-color: #141414;
 }
-.card h3 {
-  font-size: 1.4rem;
-  padding: 1rem;
-}
+
 .card p {
   padding: 10px 0;
 }
@@ -38,6 +35,8 @@
   display: block;
   width: 80%;
   margin: 2rem auto;
+  background-color: red;
+  padding: 20px;
 }
 @media screen and (max-width: 740px) {
   .card-container {

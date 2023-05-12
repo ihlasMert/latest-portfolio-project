@@ -1,8 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
 import "./PricingCard.css";
 import { Link } from "react-router-dom";
 
+
 const PricingCard = () => {
+
   return (
     <div className="pricing">
       <div className="card-container">
@@ -20,10 +22,10 @@ const PricingCard = () => {
         <div className="card">
           <h3>-Basics</h3>
           <span className="bar"></span>
-          <p>-3 Days</p>
-          <p>-3 Days</p>
-          <p>-3 Days</p>
-          <p>-3 Days</p>
+          <p>-4 Days</p>
+          <p>-4 Days</p>
+          <p>-4 Days</p>
+          <p>-4 Days</p>
           <Link to="/contact" className="btn">
             Purchase Now
           </Link>
@@ -31,15 +33,16 @@ const PricingCard = () => {
         <div className="card">
           <h3>-Basics</h3>
           <span className="bar"></span>
-          <p>-3 Days</p>
-          <p>-3 Days</p>
-          <p>-3 Days</p>
-          <p>-3 Days</p>
+          <p>-5 Days</p>
+          <p>-5 Days</p>
+          <p>-5 Days</p>
+          <p>-5 Days</p>
           <Link to="/contact" className="btn">
             Purchase Now
           </Link>
         </div>
       </div>
+     
     </div>
   );
 };
