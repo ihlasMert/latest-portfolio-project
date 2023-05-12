@@ -38,8 +38,3 @@ p a {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
-
-section{
-  top: 100%;
-  position: absolute;
-}
