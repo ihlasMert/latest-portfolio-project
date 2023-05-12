@@ -8,13 +8,15 @@
   width: 100%;
   z-index: 10;
   position: sticky;
+
 }
 .header-bg {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: red;
   transform: 0.4s;
 }
 .nav-menu {
   display: flex;
+
 }
 
 .nav-menu li {
