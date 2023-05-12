@@ -4,8 +4,15 @@
   align-items: center;
   padding: 1rem;
   color: #fff !important;
+  height: 90%;
+  width: 100%;
+  z-index: 10;
+  position: sticky;
 }
-
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.85);
+  transform: 0.4s;
+}
 .nav-menu {
   display: flex;
 }
@@ -19,8 +26,8 @@
   font-weight: 500;
 }
 
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
 
 @media screen and (max-width: 1040px) {
@@ -36,8 +43,9 @@
     top: 0;
     left: -100%;
     z-index: -3;
+    transition: 0.2s;
   }
-  .nav-menu.active{
+  .nav-menu.active {
     left: 0;
   }
   .nav-menu li {
@@ -46,7 +54,7 @@
   .nav-menu li a {
     font-size: 2rem;
   }
-  .hamburger{
+  .hamburger {
     display: initial;
-}
+  }
 }

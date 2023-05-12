@@ -1,12 +1,14 @@
-import React from 'react'
-import Navbar from '../coponents/Navbar'
+import React from "react";
+import Navbar from "../coponents/Navbar";
+import HeroImg from "../coponents/HeroImg";
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
+      <HeroImg />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
